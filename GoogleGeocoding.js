@@ -46,7 +46,6 @@ var GoogleGeocoding = class GoogleGeocoding {
         }
       } catch(e) {
         _result = {
-          street: data,
           lng: null,
           lat: null
         }
