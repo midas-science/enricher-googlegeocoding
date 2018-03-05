@@ -1,0 +1,14 @@
+[
+   {
+      "company": "Google Inc.",
+      "hq_address" : "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA"
+   },
+   {
+      "company": "Apple Inc.",
+      "hq_address" : "‎1 Infinite Loop, Cupertino, CA 95014, USA"
+   },
+   {
+      "company": "Facebook Inc.",
+      "hq_address" : "‎1 Hacker Way, Menlo Park, CA 94025, USA"
+   }
+]

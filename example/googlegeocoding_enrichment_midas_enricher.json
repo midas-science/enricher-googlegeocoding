@@ -1,0 +1,24 @@
+{
+	"source": {
+		"json": {
+			"path": "/Users/Patrick/Dropbox/Science/midas/enrichers/enricher-googlegeocoding/example/sample_locations.json"
+		}
+	},
+	"target": {
+		"json": {
+			"path": "/Users/Patrick/Dropbox/Science/midas/enrichers/enricher-googlegeocoding/example/sample_locations_enriched.json"
+		}
+	},
+	"enrichers": [
+		{
+			"name": "GoogleGeocoding",
+			"path": "/Users/Patrick/Dropbox/Science/midas/enrichers/enricher-googlegeocoding",
+			"config": {
+				"input_parameter": "$.*.hq_address",
+				"target_property": "coordinates",
+				"api_key": "YOUR_API_KEY"
+			}
+		}
+	],
+	"name": "GoogleGeocoding_Enrichment"
+}
